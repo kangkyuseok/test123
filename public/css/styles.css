@@ -4,6 +4,29 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
 */
+
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 220px;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+  max-width: 250px; /* 이미지 최대 너비 조절 */
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
+}
+
+.centered-image {
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+  margin: auto;
+}
+
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -343,6 +366,7 @@ label {
 button {
   border-radius: 0;
 }
+
 
 button:focus:not(:focus-visible) {
   outline: 0;
