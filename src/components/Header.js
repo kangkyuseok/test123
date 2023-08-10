@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // React Router에서 Link 컴포넌트를 사용합니다.
 import './header.css';
 
 const Header = () => {
   return (
     <header>
-      <img className="image-background" src="/public/squarelogo.png" alt="Background" />
       <nav>
         <ul>
           <li>
