@@ -4,6 +4,17 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
 */
+.dot-before{
+  margin-left: 100px;
+}
+    .dot-before p::before {
+      
+        content: "• ";
+        display: inline-block;
+        text-align: center;
+        
+        
+    }
 
 
 .image-overlay {
@@ -20,6 +31,19 @@
   margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
 }
 
+.image-overlay2 {
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+  max-width: 250px; /* 이미지 최대 너비 조절 */
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
+}
 .centered-image {
   max-width: 150px;
   max-height: 150px;
@@ -34,6 +58,50 @@
   margin-top: 125px; /* 이미지 높이의 절반만큼 추가 간격 */
   
 }
+
+
+
+
+
+
+
+
+
+ /* 스타일링 */
+ .contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.contact-info {
+  flex: 1;
+  padding: 10px;
+}
+.contact-form {
+  flex: 1;
+  padding: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
