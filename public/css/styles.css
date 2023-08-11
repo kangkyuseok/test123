@@ -30,11 +30,18 @@
   overflow: hidden;
   margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
 }
+.centered-image {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin: auto;
+  transform: translateY(30%);
+}
 
 .image-overlay2 {
   position: absolute;
   bottom: 0;
-  right: 150px;
+  right: 50px;
   transform: translateX(-50%);
   z-index: 1;
   width: 250px;
@@ -44,15 +51,32 @@
   overflow: hidden;
   margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
 }
-.centered-image {
+
+.image-overlay3 {
+  flex-basis: 50%; /* 요소가 차지하는 너비를 절반으로 설정 */
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+  z-index: 1;
+  left: 50px;
+  width: 250px;
+  height: 250px;
+  max-width: 250px; /* 이미지 최대 너비 조절 */
+  background-color: black;
+}
+
+.centered-image2 {
   max-width: 150px;
   max-height: 150px;
   display: block;
   margin: auto;
-  transform: translateY(30%);
+  transform: translateY(150%);
 }
 
+
+
 .text-container {
+  
   position: relative;
   text-align: center;
   margin-top: 125px; /* 이미지 높이의 절반만큼 추가 간격 */
@@ -97,11 +121,60 @@
 }
 
 
+/* 미디어 쿼리: 화면 너비가 600px 미만일 때 */
+@media screen and (max-width: 1000px) {
+  .container {
+      padding: 10px;
+  }
+  /* 이메일 보내기 폼 스타일 조정 */
+  .email-form {
+      padding: 10px;
+  }
+  .email-form input[type="submit"] {
+      padding: 5px 10px;
+  }
+  /* 주소, 이메일, 팩스 스타일 조정 */
+  .contact-info {
+      flex-direction: column;
+  }
+}
 
 
 
 
+/* 브랜드링크 css */
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* 행 사이의 간격을 조절합니다. 원하는 값으로 변경 가능합니다. */
+}
 
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* 열 사이의 간격을 조절합니다. 원하는 값으로 변경 가능합니다. */
+}
+
+.image-cell {
+  flex: 0 0 250px;  /* 이미지 컨테이너의 크기 설정 */
+}
+
+.image-cell img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 20px; /* 이미지와 텍스트 사이의 간격 */
+}
+
+.flex-row img {
+  flex-shrink: 0; /* 이미지 크기를 줄이지 않게 설정 */
+}
 
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -589,6 +662,8 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin: 0;
+    padding: 0;
 }
 
 .display-1 {
@@ -7477,6 +7552,8 @@ textarea.form-control-lg {
 }
 
 .justify-content-center {
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
   justify-content: center !important;
 }
 
