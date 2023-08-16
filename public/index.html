@@ -25,13 +25,19 @@
         
         
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style=" position: relative;">
+        <header class="py-5 bg-image-full" style=" position: relative;  min-height: 500px;">
+            <div>
             
             <video autoplay loop muted class="video-background" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
                 <source src="img/seoul.mp4" type="video/mp4">
             </video>
             
-            
+            <div class="text-overlay">
+                <p>Everywhere,</p>
+                <p>We Are</p>
+            </div>
+
+
             <div class="logo-nav-container" style="display: flex; justify-content: space-between; align-items: center; padding: 0 50px; position: absolute; top: 2%; left: 0; right: 0; z-index: 2;">
                 <div class="logo-container">
                     <img src="img/squarelogowhite.png" alt="Logo" style="width: 70px;">
@@ -43,7 +49,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about-section">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#Brand-section">Brand</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#Contact-section">Contact</a></li>
                             </ul>
@@ -51,56 +57,77 @@
                     </div>
                 </nav>
                 
-            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="container">
             <div class="image-overlay">
                 <img src="img/about.png" alt="..." class="centered-image" id="about-section">
             </div>
+        </div>
+            
         </header>
         
         
         <!-- Content section-->
         <section class="py-5">
-                    <div class="text-container1" >
-                        <p> 우리는 브랜드의 힘과 영향력을 믿습니다.</p>
+            <div class="container">
+                    <div class="text-container1 p-4" >
+                            <p> 우리는 브랜드의 힘과 영향력을 믿습니다.</p>
                             <p>우리의 비전은 다양한 시장에서 가장 독특하고 혁신적인 브랜드를 구축하고, 그들을 통해 사회와 경제의 변화를 주도하는 것입니다.</p> 
                             <p>우리는 지속가능한 비즈니스 모델을 중요하게 생각하며, 고객과 협력 파트너들의 만족도를 최우선으로 합니다.</p>
                     </div>
-                    
+                </div>   
         </section>
         <section>
-            <div class="container">
-                <div class="row">
-                    <!-- 글 부분: 모바일 화면에서는 전체 너비를 차지하도록 설정 -->
-                    <div class="col-12 col-md-8 order-2 order-md-1">
-                        <div class="text-container">우리는 다음 가치와 미션을 바탕으로 일합니다.
-                            <p>혁신과 창의성을 통한 브랜드 성장</p>
-                            <p>고객과 협력 파트너 중심의 경영</p>
-                            <p>지속가능한 사업과 사회적 책임</p>
-                            <p>글로벌 시장에서의 선도적 역할</p>
+            <div class="container" style="background-image: url('img/bg/001.png'); min-height: 400px; background-size: cover; ">
+                <div class="container py-5">
+                    <div class="row">
+                        <!-- 이미지 부분: 데스크톱에서는 왼쪽, 모바일에서는 위쪽에 표시됩니다. -->
+                        <div class="col-12 col-md-4 order-1 order-md-2 p-5">
+                            <div class="image-overlay2">                 
+                                <img src="img/value.png" alt="..." class="centered-image">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <!-- 이미지 부분: 모바일 화면에서는 전체 너비를 차지하도록 설정 -->
-                    <div class="col-12 col-md-4 order-1 order-md-2">
-                        <div class="image-overlay2">                 
-                            <img src="img/value.png" alt="..." class="centered-image">
+                        
+                        <!-- 글 부분: 데스크톱에서는 오른쪽, 모바일에서는 아래쪽에 표시됩니다. -->
+                        <div class="col-12 col-md-8 order-2 order-md-1">
+                            <div class="text-container" style="color: white; text-align: left; padding-left: 2%;">
+                                우리는 다음 가치와 미션을 바탕으로 일합니다.
+                                <ul style="list-style-type: disc;">
+                                    <li>혁신과 창의성을 통한 브랜드 성장</li>
+                                    <li>고객과 협력 파트너 중심의 경영</li>
+                                    <li>지속가능한 사업과 사회적 책임</li>
+                                    <li>글로벌 시장에서의 선도적 역할</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </section>
+        
+        
         <!-- Content section-->
-        <section class="flex-row">
-            <div class="image-overlay3">                 
-                <img src="img/brand.png" alt="..." class="centered-image" id="Brand-section">
-                
-            </div>  
-            <div class="text-container">
-            <p>우리는 브랜드의 가치를 이해하며, 그 가치를 지속적으로 발전시키는 데 헌신합니다.</p>
-            <p>브랜드 마스터스 지주는 혁신과 열정으로 브랜드의 미래를 함꼐 만들어 나갈 것을 약속합니다.</p>
-        </div>      
+        <section>
+            <div class="container" style="background-image: url('img/bg/002.png'); min-height: 400px; background-size: cover;">
+                <div class="row ">  <!-- h-100 클래스를 추가하여 컨테이너의 높이를 채우도록 합니다. -->
+        
+                    <!-- 이미지 부분 -->
+                    <div class="col-3 justify-content-start align-items-center p-5">
+                        <div class="image-overlay3">
+                            <img src="img/brand.png" alt="..." class="centered-image p-2" id="Brand-section">
+                        </div>
+                    </div>
+        
+                    <!-- 텍스트 부분 -->
+                    <div class="col-9 p-5 " style="margin-top: 10%;">
+                        <p>우리는 브랜드의 가치를 이해하며, 그 가치를 지속적으로 발전시키는 데 헌신합니다.</p>
+                        <p>브랜드 마스터스 지주는 혁신과 열정으로 브랜드의 미래를 함꼐 만들어 나갈 것을 약속합니다.</p>
+                    </div>
+        
+                </div>
+            </div>
         </section>
+        
         <!-- 브랜드 링크 -->
         <section>
             <div class="container">
@@ -139,7 +166,7 @@
 
         
         <div class="container" style="background-image: url('img/bg/contactbg.jpg'); min-height: 400px; background-size: cover;">
-            <img  width="250" height="250" src="img/contact.png" alt="" id="#Contact-section">
+            <img  width="150" height="150" src="img/contact.png" alt="" id="#Contact-section">
             
         </div>
         <div class="container" style="color: black; "><h2 style="font-weight: bold; font-size: 50px">Contact <br>Us</h2></div>
