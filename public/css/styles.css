@@ -14,7 +14,20 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트에 그림자 효과를 추가하여 가독성을 높입니다. */
 }
 
-
+@media (max-width: 576px) {  /* 부트스트랩의 xs 브레이크포인트 */
+  .responsive-img {
+      width: 100%; 
+      display: block;
+      margin: 0 auto; 
+  }
+}
+footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* 푸터가 다른 요소들 위에 올라오도록 함 */
+}
 
 .dot-before{
   margin-left: 100px;
