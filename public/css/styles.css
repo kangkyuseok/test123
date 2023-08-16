@@ -39,29 +39,35 @@
 }
 
 .image-overlay2 {
+  flex-basis: 30%; /* 요소가 차지하는 너비를 절반으로 설정 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
   position: absolute;
   bottom: 0;
-  right: 50px;
-  transform: translateX(-50%);
+  right: 10px;
+  transform: translateX(-25%);
   z-index: 1;
-  width: 250px;
-  height: 250px;
-  max-width: 250px; /* 이미지 최대 너비 조절 */
+  width: 250px;  /* 이미지 너비 */
+  height: 250px; /* 이미지 높이 */
   background-color: black;
   overflow: hidden;
   margin-bottom: -125px; /* 이미지 높이의 절반만큼 상쇄 */
 }
 
+
+
 .image-overlay3 {
   flex-basis: 50%; /* 요소가 차지하는 너비를 절반으로 설정 */
-    display: flex;
+    
     align-items: center; /* 수직 중앙 정렬 */
     justify-content: center; /* 수평 중앙 정렬 */
   z-index: 1;
+  
   left: 50px;
   width: 250px;
   height: 250px;
   max-width: 250px; /* 이미지 최대 너비 조절 */
+  max-height: 250px; /* 이미지 최대 너비 조절 */
   background-color: black;
 }
 
