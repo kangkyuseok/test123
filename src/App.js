@@ -1,11 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/menu/Home';
-import Board from './components/menu/Board';
-import Contact from './components/menu/Contact';
-import Intro from './components/menu/Intro';
+import Main1 from './components/menu/main1';
+import Main2 from './components/menu/main2';
 
 const App = () => {
   return (
@@ -14,10 +12,8 @@ const App = () => {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/intro" element={<Intro />} />
-          <Route path="/board" element={<Board />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Main1 />} />
+          <Route path="/brandBinggeul" element={<Main2 />} />
         </Routes>
 
         <Footer />

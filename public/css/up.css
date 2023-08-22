@@ -1,0 +1,20 @@
+
+/* 스크롤 내릴시 업 css  */
+#scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 55px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 20px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* No background */
+    color: grey; /* Grey arrow color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    font-size: 50px; /* Increase font size */
+}
+
+#scrollToTopBtn:hover {
+    color: darkgrey; /* Darker grey color on hover */
+}

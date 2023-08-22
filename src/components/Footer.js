@@ -4,8 +4,9 @@ import './footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2023 Your Website. All Rights Reserved.</p>
-    </footer>
+      
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2023 (주) 스퀘어컴퍼니. All rights reserved.</p></div>
+        </footer>
   );
 };
 

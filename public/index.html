@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+
         <meta name="description" content="" />
         <meta name="author" content="" />
 
@@ -19,16 +21,19 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <iink href="css/up.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        
         
     </head>
     <body>
+        <div id="root"></div>
         <!-- Responsive navbar-->
         
         
         
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style=" position: relative;  min-height: 500px;">
+        <!-- <header class="py-5 bg-image-full" style=" position: relative;  min-height: 500px;">
             <div>
             
             <video autoplay loop muted class="video-background" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
@@ -41,16 +46,15 @@
             </div>
 
 
-            <div class="logo-nav-container" style="display: flex; justify-content: space-between; align-items: center; padding: 0 10px; position: absolute; top: 2%; left: 0; right: 0; z-index: 2;">
-                <div class="logo-container">
+            <div class="logo-nav-container" style="display: flex; justify-content: space-between; align-items: center; padding: 0 10px; position: fixed; top: 2%; left: 0; right: 0; z-index: 2; "> 
                     <img src="img/squarelogowhite.png" alt="Logo" style="width: 70px;">
                 </div>
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container-fluid px-0">  <!-- 패딩 제거를 위해 px-0 클래스 추가 -->
+                    <div class="container-fluid px-0">
                         <button class="navbar-toggler me-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 5px; ">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#Brand-section">Brand</a></li>
@@ -60,17 +64,21 @@
                     </div>
                 </nav>
             </div>
+            
             <div class="container">
             <div class="image-overlay">
                 <img src="img/about.png" alt="..." class="centered-image" id="about-section">
             </div>
         </div>
             
-        </header>
+        </header> -->
         
         
         <!-- Content section-->
-        <section class="py-5">
+
+
+
+        <!-- <section class="py-5">
             <div class="container">
                     <div class="text-container1 p-4" >
                             <p> 우리는 브랜드의 힘과 영향력을 믿습니다.</p>
@@ -78,19 +86,23 @@
                             <p>우리는 지속가능한 비즈니스 모델을 중요하게 생각하며, 고객과 협력 파트너들의 만족도를 최우선으로 합니다.</p>
                     </div>
                 </div>   
-        </section>
-        <section>
+        </section> -->
+
+
+
+
+        <!-- <section>
             <div class="container" style="background-image: url('img/bg/001.png'); min-height: 400px; background-size: cover;" >
                 <div class="container py-5">
                     <div class="row" data-aos="zoom-in" data-aos-duration="3000">
-                        <!-- 이미지 부분: 데스크톱에서는 왼쪽, 모바일에서는 위쪽에 표시됩니다. -->
+                         이미지 부분: 데스크톱에서는 왼쪽, 모바일에서는 위쪽에 표시됩니다. 
                         <div class="col-12 col-md-4 order-1 order-md-2 p-5" >
                             <div class="image-overlay2">                 
                                 <img src="img/value.png" alt="..." class="centered-image">
                             </div>
                         </div>
                         
-                        <!-- 글 부분: 데스크톱에서는 오른쪽, 모바일에서는 아래쪽에 표시됩니다. -->
+                         글 부분: 데스크톱에서는 오른쪽, 모바일에서는 아래쪽에 표시됩니다. 
                         <div class="col-12 col-md-8 order-2 order-md-1" data-aos="fade-left">
                             <div class="text-container" style="color: white; text-align: left; padding-left: 2%;">
                                 우리는 다음 가치와 미션을 바탕으로 일합니다.
@@ -105,21 +117,21 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         
         <!-- Content section-->
-        <section>
+        <!-- <section>
             <div class="container" style="background-image: url('img/bg/002.png'); min-height: 400px; background-size: cover;">
                 <div class="row py-5"> 
         
-                    <!-- 텍스트 부분 -->
+                     텍스트 부분 
                     <div class="col-12 col-md-9 order-2 order-md-2 p-5" data-aos="fade-up" data-aos-duration="1000"  data-aos-easing="ease-in-out" style="margin-top: 10%;">
                         <p>우리는 브랜드의 가치를 이해하며, 그 가치를 지속적으로 발전시키는 데 헌신합니다.</p>
                         <p>브랜드 마스터스 지주는 혁신과 열정으로 브랜드의 미래를 함꼐 만들어 나갈 것을 약속합니다.</p>
                     </div>
         
-                    <!-- 이미지 부분 -->
+                     이미지 부분 
                     <div class="col-12 col-md-3 order-1 order-md-1 justify-content-start align-items-center p-5" data-aos="fade-right" data-aos-duration="3000">
                         <div class="image-overlay3">
                             <img src="img/brand.png" alt="..." class="centered-image p-2" id="Brand-section">
@@ -128,18 +140,18 @@
         
                 </div>
             </div>
-        </section>
+        </section> -->
         
-        <hr class="container">
+        
         
         <!-- 브랜드 링크 -->
-        <section>
+        <!-- <section>
             <div class="container">
                 <div class="content-display">
-                    <!-- 내용이 여기에 동적으로 바뀝니다 -->
+                    
                 </div>
                 <div class="row">
-                    <!-- 1행   class="spa-link" < 바로열리기 이동안함-->
+                    
                     <div class="col-6 col-md-3">
                         <figure data-aos="zoom-in" data-aos-duration="1000">
                             <a href="pages/work.html" class="spa-link"><img width="400" height="300" src="img/brandimg/001.png" alt="" class="img-fluid border-rectangle"></a>
@@ -157,10 +169,10 @@
                     </div>
                     <div class="col-6 col-md-3">
                         <figure data-aos="zoom-in" data-aos-duration="1000">
-                            <a class="spa-link" href="pages/everybottle.html"><img width="400" height="300" src="img/brandimg/004.png" alt="" class="img-fluid border-rectangle"></a>
+                            <a href="pages/everybottle.html"><img width="400" height="300" src="img/brandimg/004.png" alt="" class="img-fluid border-rectangle"></a>
                         </figure>
                     </div>
-                    <!-- 2행 -->
+                    
                     <div class="col-6 col-md-3">
                         <figure data-aos="zoom-in" data-aos-duration="1000">
                             <a href="pages/squall.html"><img width="400" height="300" src="img/brandimg/005.png" alt="" class="img-fluid border-rectangle"></a>
@@ -168,9 +180,13 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <hr class="container">
-        <section>
+        </section> -->
+
+
+        <!-- <hr class="container"> -->
+
+
+        <!-- <section>
             <div class="container" style="background-image: url('img/bg/contactbg.jpg'); min-height: 400px; background-size: cover;">
                 <div class="row py-5"> 
 
@@ -182,16 +198,17 @@
         
                 </div>
             </div>
-        </section>
+        </section> -->
+
         
-        <div class="container contact-section" style="color: black;">
+        <!-- <div class="container contact-section" style="color: black;">
             <div class="row align-items-center">
-                <!-- 텍스트 부분 -->
+               
                 <div class="col-md-9 contact-heading">
                     <h2 style="font-weight: bold; font-size: 50px">Contact <br> Us</h2>
                 </div>
             
-                <!-- 구글 지도 부분 -->
+                
                 <div class="col">
                     <a href="https://map.naver.com/p/search/%EB%85%BC%ED%98%84%EB%A1%9C%20105%EA%B8%B8%2087/address/14140625.8521478,4509643.8164361,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%EB%85%BC%ED%98%84%EB%A1%9C105%EA%B8%B8%2087,new?c=19.00,0,0,0,dh&isCorrectAnswer=true" target="_blank" class="map-link-box">
                         지도 바로가기
@@ -199,15 +216,15 @@
                 </div>
             </div>
             
-        </div>
-        <br>
+        </div> -->
+        
         <!-- <div class="container-fluid" style="background-image: url('img/bg/contactbg.jpg'); min-height: 400px; background-size: cover;">
             <img  width="150" height="150" src="img/contact.png" alt="" id="#Contact-section" >
             
         </div> -->
         
-        
-        <div class="contact-container">
+        <!-- <section class="container" >
+        <div class="contact-container" style="height: 520px;">
             <div class="contact-info">
                 <P>법인명(상호) : (주)스퀘어컴퍼니</P>
                 <P>대표자 : 이계윤</P>
@@ -230,14 +247,17 @@
                 </form>
             </div>
         </div>
+        
+    </section> -->
 
 
+    <button id="scrollToTopBtn" title="Go to top" >↑</button>
 
-
+        <script src="js/upscript.js"></script>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2023(주) 스퀘어컴퍼니. All rights reserved.</p></div>
-        </footer>
+        <!-- <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2023 (주) 스퀘어컴퍼니. All rights reserved.</p></div>
+        </footer> -->
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
