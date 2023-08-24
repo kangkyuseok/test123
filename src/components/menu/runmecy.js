@@ -1,24 +1,9 @@
-import React, { useState, useEffect  } from 'react';
+import React, {useEffect  } from 'react';
 import styles from './runmecy.module.css';
 
 const Runmecy = () => {
-  const [scrollActive, setScrollActive] = useState(false);
+  
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 200) {
-        setScrollActive(true);
-      } else {
-        setScrollActive(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <section>
@@ -37,15 +22,16 @@ const Runmecy = () => {
         </div>
       </header>
       
-
-      <div className={`scroll-up ${scrollActive ? 'active' : ''}`}>
-        <div className={`container ${scrollActive ? 'slide-animation' : ''}`}>
+      <div className='container'>
+                
+                <img src="img/detail/runmecydetail.JPG" alt='브랜드 빙글' style={{ top: 0, left: 0, right: 0, bottom: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }}></img>
+            </div>
+        {/* <div className='container'>
           <img
             src="img/detail/runmecydetail.JPG"
             alt='브랜드 런머시'
           ></img>
-        </div>
-      </div>
+       </div> */}
     </section>
   );
 };
