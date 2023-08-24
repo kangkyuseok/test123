@@ -13,7 +13,17 @@
   color: white; /* 원하는 색상으로 변경하세요. */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트에 그림자 효과를 추가하여 가독성을 높입니다. */
 }
+@media (max-width: 1080px) {
+  .text-overlay {
+    font-size: 30px; /* 화면 크기가 768px 이하일 때 글자 크기를 조절 */
+  }
+}
 
+@media (max-width: 568px) {
+  .text-overlay {
+    font-size: 12px; /* 화면 크기가 480px 이하일 때 글자 크기를 조절 */
+  }
+}
 @media (max-width: 576px) {  /* 부트스트랩의 xs 브레이크포인트 */
   .responsive-img {
       width: 100%; 
@@ -286,7 +296,7 @@ background-color: black;
 }
 
 
-
+ 
 
 
 
