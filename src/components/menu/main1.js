@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -108,17 +109,17 @@ const main1 = () => {
 
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="brandLifeborn"><img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" /></a>
+                                                <Link to="/brandLifeborn"/><img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" />
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="brandRunmecy"><img width="400" height="300" src="img/brandimg/002.png" alt="런머시몰" className="img-fluid border-rectangle" /></a>
+                                                <Link to="/brandRunmecy"/><img width="400" height="300" src="img/brandimg/002.png" alt="런머시몰" className="img-fluid border-rectangle" />
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="brandBinggeul"><img width="400" height="300" src="img/brandimg/003.png" alt="빙글" className="img-fluid border-rectangle" /></a>
+                                                <Link to="/brandBinggeul"/><img width="400" height="300" src="img/brandimg/003.png" alt="빙글" className="img-fluid border-rectangle" />
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
