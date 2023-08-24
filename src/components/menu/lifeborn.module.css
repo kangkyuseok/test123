@@ -1,0 +1,36 @@
+.detail-section figcaption {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    transition: bottom 0.3s;
+  }
+  
+  .detail-section.show-caption figcaption {
+    bottom: 0;
+  }
+  .center-button {
+    text-align: center;
+    margin-top: 10px; /* 원하는 여백 조정 */
+  }
+  
+  .brand-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e9dbcb; /* 원하는 배경색 지정 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .brand-button:hover {
+    background-color: #eee5ee; /* 호버 시 배경색 변경 */
+  }
+
+
+  

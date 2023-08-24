@@ -1,0 +1,67 @@
+.detail-section figcaption {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    transition: bottom 0.3s;
+  }
+  
+  .detail-section.show-caption figcaption {
+    bottom: 0;
+  }
+  .center-button {
+    text-align: center;
+    margin-top: 10px; /* 원하는 여백 조정 */
+  }
+  
+  .brand-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #c217c2 !important; /* 원하는 배경색 지정 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .brand-button:hover {
+    background-color: #6d036d; /* 호버 시 배경색 변경 */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .container img.slide-animation {
+    position: relative;
+    animation: slideIn 1s forwards; /* 1초 동안 애니메이션 실행 */
+  }
+  
+  
+  .container img {
+    position: relative;
+    animation: slideIn 1s forwards; /* 1초 동안 애니메이션 실행 */
+  }
+  
+  .scroll-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .scroll-up.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

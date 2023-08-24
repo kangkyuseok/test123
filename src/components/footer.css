@@ -1,14 +1,18 @@
 /* footer.css */
 
 footer {
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
     height: auto;
-    background-color: #333; /* 푸터 배경색을 원하는 색상으로 변경하세요 */
-    color: white; /* 푸터 글자색을 원하는 색상으로 변경하세요 */
+    background-color: #ffffff; /* 푸터 배경색을 원하는 색상으로 변경하세요 */
+    color: rgb(0, 0, 0); /* 푸터 글자색을 원하는 색상으로 변경하세요 */
+    font-size: 12;
     
-    text-align: center;
   }
+  p {
+    margin: 0 !important;
+}
+
   
   /* 추가적인 스타일링을 원하면 여기에 추가하세요 */

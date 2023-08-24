@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.detail-section figcaption {
+  display: none;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  transition: bottom 0.3s;
+}
+
+.detail-section.show-caption figcaption {
+  bottom: 0;
+}

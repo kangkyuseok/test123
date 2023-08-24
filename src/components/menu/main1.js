@@ -108,12 +108,12 @@ const main1 = () => {
 
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="pages/work.html"><img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" /></a>
+                                                        <a href="brandLifeborn"><img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" /></a>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="pages/runmecy.html"><img width="400" height="300" src="img/brandimg/002.png" alt="런머시몰" className="img-fluid border-rectangle" /></a>
+                                                        <a href="brandRunmecy"><img width="400" height="300" src="img/brandimg/002.png" alt="런머시몰" className="img-fluid border-rectangle" /></a>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
@@ -179,13 +179,7 @@ const main1 = () => {
 
                         <hr className='container' />
                         <div className="container contact-container">
-                                <div className="contact-info">
-                                        <p>법인명(상호) : (주)스퀘어컴퍼니</p>
-                                        <p>대표자 : 이계윤</p>
-                                        <p>주소: 서울특별시 강남구 논현로 105길 87, B103~105</p>
-                                        <p>대표 번호: 070-4647-4827 </p>
-                                        <p>이메일: example@example.com</p>
-                                </div>
+                                
                                 <div className="contact-form">
                                         <form onSubmit={handleSubmit}>
                                                 <select name="category">
