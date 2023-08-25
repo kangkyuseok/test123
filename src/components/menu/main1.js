@@ -109,9 +109,9 @@ const main1 = () => {
 
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                <Link to="/brandLifeborn">
+                                                <a href="pages/work.html">
                                                 <img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" />
-                                                </Link>
+                                                </a>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
