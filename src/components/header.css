@@ -1,0 +1,14 @@
+/* 데스크톱 환경 */
+@media (min-width: 769px) {
+    .logo-container {
+      margin-left: 20px;
+    }
+  }
+  
+  /* 모바일 환경 */
+  @media (max-width: 768px) {
+    .logo-container {
+      margin-left: 1px;
+    }
+  }
+  

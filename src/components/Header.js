@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./header.css"
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -23,8 +24,8 @@ const Header = () => {
             
             
             <div className="logo-nav-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center',  position: 'fixed', top: '2%', left: 0, right: 0, zIndex: 2 }}>
-                <div className="logo-container" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
-                    <a href='/'><img src="img/squarelogowhite.png" alt="Logo" style={{ width: '70px' }} /></a>
+                <div className="logo-container" style={{ background: 'rgba(0, 0, 0)' }}>
+                    <a  href='/'><img src="img/squarelogowhite.png" alt="Logo" style={{ width: '70px' }} /></a>
                 </div>
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <div className="container-fluid px-0">

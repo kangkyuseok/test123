@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useEffect} from "react";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import "./main1.css";
 
+const Main1 = () => {
 
-const main1 = () => {
+      // 스크롤 이벤트 핸들러 추가
+  useEffect(() => {
+        const handleScroll = () => {
+          const contentDisplay = document.querySelector(".content-display");
+          const rect = contentDisplay.getBoundingClientRect();
+          if (rect.top <= window.innerHeight) {
+            contentDisplay.classList.add("show");
+          } else {
+            contentDisplay.classList.remove("show");
+          }
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
+
         const handleSubmit = async (e) => {
                 e.preventDefault();
 
@@ -49,7 +68,7 @@ const main1 = () => {
                                         </div>
                                 </div>
                         </header>
-                        <div class="container">
+                        <div class="container content-display">
                                 <div class="text-container1 p-4" >
                                         <p> 우리는 브랜드의 힘과 영향력을 믿습니다.</p>
                                         <p>우리의 비전은 다양한 시장에서 가장 독특하고 혁신적인 브랜드를 구축하고, 그들을 통해 사회와 경제의 변화를 주도하는 것입니다.</p>
@@ -84,7 +103,7 @@ const main1 = () => {
                                 </div>
                         </div>
 
-                        <div className="container" style={{ backgroundImage: "url('img/bg/002.png')", minHeight: "400px", backgroundSize: "cover" }}>
+                        <div className="container " style={{ backgroundImage: "url('img/bg/002.png')", minHeight: "400px", backgroundSize: "cover" }}>
                                 <div className="row py-5">
 
                                         <div className="col-12 col-md-9 order-2 order-md-2 p-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" style={{ marginTop: "10%" }}>
@@ -109,9 +128,9 @@ const main1 = () => {
 
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                <a href="pages/work.html">
+                                                <Link to="/brandLifeborn">
                                                 <img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" />
-                                                </a>
+                                                </Link>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
@@ -208,4 +227,4 @@ const main1 = () => {
         );
 };
 
-export default main1;
+export default Main1;

@@ -1,0 +1,41 @@
+.content-display {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+}
+
+/*  */
+.content-display.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-up {
+    transform: translateY(100px);  /* 초기 상태: Y축 방향으로 100px 아래로 이동 */
+    opacity: 0;  /* 초기 상태: 투명 */
+    transition: all 0.5s ease-in-out;  /* 애니메이션: 0.5초 동안 모든 속성을 변경 */
+  }
+  
+  .slide-up.visible {
+    transform: translateY(0);  /* 최종 상태: 원래 위치로 이동 */
+    opacity: 1;  /* 최종 상태: 불투명 */
+  }
+
+  .box {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+  }
+  .hid-box {
+    top: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    background: #ffffff;
+    height: 100%;
+  }
+  
+  .box:hover > .hid-box{
+    top: 0;
+  }
