@@ -28,14 +28,14 @@ const Everybottle = () => {
       </div>
       <div className="container">
         <div className="row container d-flex justify-content-center">
-          <div className="d-flex justify-content-center p-2">
-            <img src="img/everybottle/004.jpg" alt="Image1" className="img-fluid" />
+          <div className="col-4 d-flex justify-content-center p-2">
+            <img src="img/everybottle/004.jpg" alt="Image1" className="img-fluid-runmecy" />
           </div>
-          <div className="d-flex justify-content-center p-2">
-            <img src="img/everybottle/005.jpg" alt="Image2" className="img-fluid" />
+          <div className="col-4 d-flex justify-content-center p-2">
+            <img src="img/everybottle/005.jpg" alt="Image2" className="img-fluid-runmecy" />
           </div>
-          <div className="d-flex justify-content-center p-2">
-            <img src="img/everybottle/006.jpg" alt="Image3" className="img-fluid" />
+          <div className="col-4 d-flex justify-content-center p-2">
+            <img src="img/everybottle/006.jpg" alt="Image3" className="img-fluid-runmecy" />
           </div>
           
         </div>
