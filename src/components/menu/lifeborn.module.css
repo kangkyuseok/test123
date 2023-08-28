@@ -43,7 +43,7 @@
 }
 
 /* 모바일 */
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .img-fluid {
     width: 100px;
     height: 100px;
