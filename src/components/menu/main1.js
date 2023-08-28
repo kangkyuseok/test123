@@ -149,13 +149,17 @@ const Main1 = () => {
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="pages/everybottle.html"><img width="400" height="300" src="img/brandimg/004.png" alt="에브리보틀" className="img-fluid border-rectangle" /></a>
+                                                <Link to="/brandEverybottle">
+                                                                <img width="400" height="300" src="img/brandimg/004.png" alt="에브리보틀" className="img-fluid border-rectangle" />
+                                                                </Link>
                                                 </figure>
                                         </div>
 
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
-                                                        <a href="pages/squall.html"><img width="400" height="300" src="img/brandimg/005.png" alt="스콜" className="img-fluid border-rectangle" /></a>
+                                                <Link to="/brandSquall">
+                                                                <img width="400" height="300" src="img/brandimg/005.png" alt="스콜" className="img-fluid border-rectangle" />
+                                                                </Link>     
                                                 </figure>
                                         </div>
                                 </div>

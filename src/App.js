@@ -6,6 +6,8 @@ import Main1 from './components/menu/main1';
 import Binggeul from './components/menu/binggeul';
 import Runmecy from './components/menu/runmecy';
 import Lifeborn from './components/menu/lifeborn';
+import Squall from './components/menu/squall';
+import Everybottle from './components/menu/everybottle';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path="/brandBinggeul" element={<Binggeul />} />
           <Route path="/brandRunmecy" element={<Runmecy />} />
           <Route path="/brandLifeborn" element={<Lifeborn />} />
+          <Route path="/brandSquall" element={<Squall />} />
+          <Route path="/brandEverybottle" element={<Everybottle />} />
         </Routes>
 
         <Footer />
