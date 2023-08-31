@@ -8,7 +8,7 @@
   /* 모바일 환경 */
   @media (max-width: 768px) {
     .logo-container {
-      margin-left: 1px;
+      margin-left: 5px;
     }
   }
   

@@ -35,7 +35,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', borderRadius: '5px' }}>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item"><a className="nav-link" href="#about-section">About</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#Brand-section">Brand</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/brand.html">Brand</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#Contact-section">Contact</a></li>
                             </ul>
                             

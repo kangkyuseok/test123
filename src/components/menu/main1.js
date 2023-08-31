@@ -129,28 +129,28 @@ const Main1 = () => {
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
                                                 <Link to="/brandLifeborn">
-                                                <img width="400" height="300" src="img/brandimg/001.png" alt="생활본책" className="img-fluid border-rectangle" />
+                                                <img  src="img/brandimg/lifeborn_main_brand.png" alt="생활본책" className="img-fluid border-rectangle" />
                                                 </Link>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
                                                 <Link to="/brandRunmecy">
-                                                <img width="400" height="300" src="img/brandimg/002.png" alt="런머시몰" className="img-fluid border-rectangle" />
+                                                <img  src="img/brandimg/runmecy_main_brand.png" alt="런머시몰" className="img-fluid border-rectangle" />
                                                 </Link>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
                                                 <Link to="/brandBinggeul">
-                                                <img width="400" height="300" src="img/brandimg/003.png" alt="빙글" className="img-fluid border-rectangle" />
+                                                <img  src="img/brandimg/binggeul_main_brand.jpg" alt="빙글" className="img-fluid border-rectangle" />
                                                 </Link>
                                                 </figure>
                                         </div>
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
                                                 <Link to="/brandEverybottle">
-                                                                <img width="400" height="300" src="img/brandimg/004.png" alt="에브리보틀" className="img-fluid border-rectangle" />
+                                                                <img  src="img/brandimg/004.png" alt="에브리보틀" className="img-fluid border-rectangle" />
                                                                 </Link>
                                                 </figure>
                                         </div>
@@ -158,7 +158,7 @@ const Main1 = () => {
                                         <div className="col-6 col-md-3">
                                                 <figure data-aos="zoom-in" data-aos-duration="1000">
                                                 <Link to="/brandSquall">
-                                                                <img width="400" height="300" src="img/brandimg/005.png" alt="스콜" className="img-fluid border-rectangle" />
+                                                                <img  src="img/brandimg/005.png" alt="스콜" className="img-fluid border-rectangle" />
                                                                 </Link>     
                                                 </figure>
                                         </div>

@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <div>
         <Header />
-
+        
         <Routes>
           <Route path="/" element={<Main1 />} />
           <Route path="/brandBinggeul" element={<Binggeul />} />
@@ -23,7 +23,8 @@ const App = () => {
           <Route path="/brandSquall" element={<Squall />} />
           <Route path="/brandEverybottle" element={<Everybottle />} />
         </Routes>
-
+        
+        
         <Footer />
       </div>
     </Router>
