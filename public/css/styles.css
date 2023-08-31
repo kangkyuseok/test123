@@ -329,10 +329,19 @@ background-color: black;
 /* 모바일 */
 @media (max-width: 768px) {
   .img-fluid-runmecy {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
   }
 }
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 180px;
+    height: 80px;
+  }
+}
+
 
 
 
@@ -957,6 +966,7 @@ progress {
   max-width: 250px;
   height: 250px;
 }
+
 
 
 

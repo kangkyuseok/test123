@@ -45,8 +45,8 @@
 /* 모바일 */
 @media (max-width: 768px) {
   .img-fluid {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 }
 

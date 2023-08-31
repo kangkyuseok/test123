@@ -27,13 +27,13 @@ const Lifeborn = () => {
       <div className="container">
         <div className="row container d-flex justify-content-center">
           <div className="col-4 d-flex justify-content-center p-2">
-            <img src="img/lifeborn/001.png" alt="Image1" className="img-fluid" />
+            <img src="img/lifeborn/001.png" alt="Image1" className="img-fluid-runmecy" />
           </div>
           <div className="col-4 d-flex justify-content-center p-2">
-            <img src="img/lifeborn/002.png" alt="Image2" className="img-fluid" />
+            <img src="img/lifeborn/002.png" alt="Image2" className="img-fluid-runmecy" />
           </div>
           <div className="col-4 d-flex justify-content-center p-2">
-            <img src="img/lifeborn/003.png" alt="Image3" className="img-fluid" />
+            <img src="img/lifeborn/003.png" alt="Image3" className="img-fluid-runmecy" />
           </div>
           
         </div>
