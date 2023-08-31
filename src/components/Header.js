@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import "./header.css"
 
 const Header = () => {
@@ -35,7 +36,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', borderRadius: '5px' }}>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item"><a className="nav-link" href="#about-section">About</a></li>
-                                <li className="nav-item"><a className="nav-link" href="/brand.html">Brand</a></li>
+                                <li className="nav-item"><Link className="nav-link" to="/brand">Brand</Link></li>
                                 <li className="nav-item"><a className="nav-link" href="#Contact-section">Contact</a></li>
                             </ul>
                             
@@ -46,8 +47,33 @@ const Header = () => {
 
             
             </div>
+            <div id="content"></div>
+    <script src="navScript.js"></script>
         </header>
+        
   );
 };
+// DOMContentLoaded 이벤트를 사용하여 페이지가 로드된 후에 실행되도록 합니다.
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            event.preventDefault(); // 기본 동작 취소
+            const href = link.getAttribute("href"); // 링크 주소 가져오기
+            const brandName = href.split("/")[1]; // 주소에서 브랜드 이름 가져오기
+            displayBrandContent(brandName); // 함수 호출
+        });
+    });
+});
+
+// 브랜드 컨텐츠를 표시하는 함수
+function displayBrandContent(brandName) {
+    const contentDiv = document.getElementById("content");
+    
+    // AJAX 등을 사용하여 브랜드 페이지의 내용을 가져와서 표시할 수도 있습니다.
+    // 여기에서는 간단히 문자열로 표시합니다.
+    contentDiv.innerHTML = `<h1>${brandName} Page</h1>`;
+}
 
 export default Header;
