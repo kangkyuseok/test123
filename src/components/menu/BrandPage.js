@@ -124,7 +124,7 @@ const BrandPage = () => {
                 {/* Footer */}
                 <footer id="footer">
                     <section>
-                        <form method="post" action="#">
+                        <form method="post" action="/">
                             <div className="fields">
                                 <div className="field">
                                     <label htmlFor="name">Name</label>
@@ -151,11 +151,11 @@ const BrandPage = () => {
                         </section>
                         <section>
                             <h3>Phone</h3>
-                            <p><a href="/">(000) 000-0000</a></p>
+                            <p><a>(000) 000-0000</a></p>
                         </section>
                         <section>
                             <h3>Email</h3>
-                            <p><a href="/">info@untitled.tld</a></p>
+                            <p><a>info@untitled.tld</a></p>
                         </section>
                         <section>
                             <h3>Social</h3>

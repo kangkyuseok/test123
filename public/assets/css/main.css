@@ -296,10 +296,7 @@ input, select, textarea {
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #18bfef !important;
-		}
+		
 
 	strong, b {
 		color: #212931;
@@ -2210,14 +2207,7 @@ input, select, textarea {
 		color: #212931 !important;
 	}
 
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
-		}
+	
 
 		input[type="submit"].primary,
 		input[type="reset"].primary,
@@ -2229,13 +2219,7 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
-			input[type="button"].primary:hover,
-			button.primary:hover,
-			.button.primary:hover {
-				background-color: #18bfef;
-			}
+			
 
 /* Form */
 
@@ -2486,14 +2470,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			border-color: #18bfef;
-		}
-
+	
 	select {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
 	}
@@ -2524,10 +2501,6 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
-	input[type="checkbox"]:focus + label:before,
-	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
-	}
 
 	::-webkit-input-placeholder {
 		color: #909498 !important;
@@ -2889,17 +2862,14 @@ input, select, textarea {
 		border-top-color: #eeeeee;
 	}
 
-	ul.icons li a.icon:hover:before {
-		color: #18bfef;
-	}
 
 	ul.icons.alt li .icon:before {
 		box-shadow: inset 0 0 0 2px #eeeeee;
 	}
 
-	ul.icons.alt li a.icon:hover:before {
+	/* ul.icons.alt li a.icon:hover:before {
 		box-shadow: inset 0 0 0 2px #18bfef;
-	}
+	} */
 
 /* Section/Article */
 
@@ -3196,16 +3166,16 @@ input, select, textarea {
 		color: #212931 !important;
 	}
 
-		.pagination a:hover {
+		/* .pagination a:hover {
 			color: #18bfef !important;
 			border-color: #18bfef;
 			z-index: 1;
-		}
+		} */
 
-			.pagination a:hover + a,
+			/* .pagination a:hover + a,
 			.pagination a:hover + span {
 				border-left-color: #18bfef;
-			}
+			} */
 
 		.pagination a.active {
 			background-color: #eeeeee;
@@ -3322,10 +3292,10 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#intro a:hover {
+			/* #intro a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
-			}
+			} */
 
 		#intro strong, #intro b {
 			color: #ffffff;
@@ -3358,14 +3328,7 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
-			#intro input[type="submit"]:hover,
-			#intro input[type="reset"]:hover,
-			#intro input[type="button"]:hover,
-			#intro button:hover,
-			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
-			}
+			
 
 			#intro input[type="submit"].primary,
 			#intro input[type="reset"].primary,
@@ -3531,10 +3494,7 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#header a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
-			}
+		
 
 		#header strong, #header b {
 			color: #ffffff;
@@ -3576,10 +3536,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
-			}
+			
 
 		@media screen and (max-width: 980px) {
 
@@ -3631,17 +3588,17 @@ input, select, textarea {
 			border-top-color: #ffffff;
 		}
 
-		#nav ul.icons li a.icon:hover:before {
+		/* #nav ul.icons li a.icon:hover:before {
 			color: #18bfef;
-		}
+		} */
 
 		#nav ul.icons.alt li .icon:before {
 			box-shadow: inset 0 0 0 2px #ffffff;
 		}
 
-		#nav ul.icons.alt li a.icon:hover:before {
+		/* #nav ul.icons.alt li a.icon:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
-		}
+		} */
 
 		#nav input, #nav select, #nav textarea {
 			color: #ffffff;
@@ -3652,10 +3609,10 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#nav a:hover {
+			/* #nav a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
-			}
+			} */
 
 		#nav strong, #nav b {
 			color: #ffffff;
@@ -3729,9 +3686,9 @@ input, select, textarea {
 						color: #1e252d;
 					}
 
-						#nav ul.links li.active a:hover {
+						/* #nav ul.links li.active a:hover {
 							color: #18bfef !important;
-						}
+						} */
 
 		#nav ul.icons {
 			-moz-flex-grow: 0;
@@ -4012,14 +3969,14 @@ input, select, textarea {
 			color: #717981 !important;
 		}
 
-			#footer input[type="submit"]:hover,
+			/* #footer input[type="submit"]:hover,
 			#footer input[type="reset"]:hover,
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
 				color: #18bfef !important;
-			}
+			} */
 
 			#footer input[type="submit"].primary,
 			#footer input[type="reset"].primary,
@@ -4031,13 +3988,13 @@ input, select, textarea {
 				color: #f5f5f5 !important;
 			}
 
-				#footer input[type="submit"].primary:hover,
+				/* #footer input[type="submit"].primary:hover,
 				#footer input[type="reset"].primary:hover,
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
 					background-color: #18bfef;
-				}
+				} */
 
 		#footer label {
 			color: #717981;
@@ -4051,13 +4008,13 @@ input, select, textarea {
 			border-color: #e2e2e2;
 		}
 
-			#footer input[type="text"]:focus,
+			/* #footer input[type="text"]:focus,
 			#footer input[type="password"]:focus,
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
 				border-color: #18bfef;
-			}
+			} */
 
 		#footer select {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e2e2e2' /%3E%3C/svg%3E");
