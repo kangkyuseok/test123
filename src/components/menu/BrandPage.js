@@ -151,11 +151,11 @@ const BrandPage = () => {
                         </section>
                         <section>
                             <h3>Phone</h3>
-                            <p><a>(000) 000-0000</a></p>
+                            <p><a href='tel:07046474827'>(070) 4647-4827</a></p>
                         </section>
                         <section>
                             <h3>Email</h3>
-                            <p><a>info@untitled.tld</a></p>
+                            <p>info@untitled.tld</p>
                         </section>
                         <section>
                             <h3>Social</h3>
