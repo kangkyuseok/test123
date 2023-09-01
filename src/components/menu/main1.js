@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+// import axios from 'axios';
 import "./main1.css";
 
 const Main1 = () => {
@@ -23,26 +23,26 @@ const Main1 = () => {
         };
       }, []);
 
-        const handleSubmit = async (e) => {
-                e.preventDefault();
+        // const handleSubmit = async (e) => {
+        //         e.preventDefault();
 
-                const formData = {
-                        email: e.target.email.value,
-                        category: e.target.category.value,
-                        name: e.target.name.value,
-                        phone: e.target.phone.value,
-                        message: e.target.message.value
-                };
+        //         const formData = {
+        //                 email: e.target.email.value,
+        //                 category: e.target.category.value,
+        //                 name: e.target.name.value,
+        //                 phone: e.target.phone.value,
+        //                 message: e.target.message.value
+        //         };
 
-                console.log("보내려는 데이터:", formData);  // 여기를 추가
+        //         console.log("보내려는 데이터:", formData);
 
-                try {
-                        const response = await axios.post('/send-email', formData);
-                        console.log(response.data);
-                } catch (error) {
-                        console.error("이메일을 보내는 중 오류가 발생했습니다.", error);
-                }
-        };
+        //         try {
+        //                 const response = await axios.post('/send-email', formData);
+        //                 console.log(response.data);
+        //         } catch (error) {
+        //                 console.error("이메일을 보내는 중 오류가 발생했습니다.", error);
+        //         }
+        // };
         return (
 
                 <section>
@@ -81,14 +81,14 @@ const Main1 = () => {
                                 <div className="container py-5">
                                         <div className="row" data-aos="zoom-in" data-aos-duration="3000">
                                                 {/* 이미지 부분: 데스크톱에서는 왼쪽, 모바일에서는 위쪽에 표시됩니다. */}
-                                                <div className="col-12 col-md-4 order-1 order-md-2 p-5">
+                                                <div className="col-6 col-md-4 order-1 order-md-2 p-5">
                                                         <div className="image-overlay2">
                                                                 <img src="img/value.png" alt="value representation" className="centered-image" />
                                                         </div>
                                                 </div>
 
                                                 {/* 글 부분: 데스크톱에서는 오른쪽, 모바일에서는 아래쪽에 표시됩니다. */}
-                                                <div className="col-12 col-md-8 order-2 order-md-1" data-aos="fade-left">
+                                                <div className="col-6 col-md-8 order-2 order-md-1" data-aos="fade-left">
                                                         <div className="text-container" style={{ color: "white", textAlign: "left", paddingLeft: "2%" }}>
                                                                 우리는 다음 가치와 미션을 바탕으로 일합니다.
                                                                 <ul style={{ listStyleType: "disc" }}>
@@ -106,12 +106,12 @@ const Main1 = () => {
                         <div className="container " style={{ backgroundImage: "url('img/bg/002.png')", minHeight: "400px", backgroundSize: "cover" }}>
                                 <div className="row py-5">
 
-                                        <div className="col-12 col-md-9 order-2 order-md-2 p-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" style={{ marginTop: "10%" }}>
+                                        <div className="col-6 col-md-9 order-2 order-md-2 p-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" style={{ marginTop: "10%" }}>
                                                 <p>우리는 브랜드의 가치를 이해하며, 그 가치를 지속적으로 발전시키는 데 헌신합니다.</p>
                                                 <p>브랜드 마스터스 지주는 혁신과 열정으로 브랜드의 미래를 함께 만들어 나갈 것을 약속합니다.</p>
                                         </div>
 
-                                        <div className="col-12 col-md-3 order-1 order-md-1 justify-content-start align-items-center p-5" data-aos="fade-right" data-aos-duration="3000">
+                                        <div className="col-6 col-md-3 order-1 order-md-1 justify-content-start align-items-center p-5" data-aos="fade-right" data-aos-duration="3000">
                                                 <div className="image-overlay3">
                                                         <img src="img/brand.png" alt="Brand" className="centered-image p-2" id="Brand-section" />
                                                 </div>
@@ -208,7 +208,7 @@ const Main1 = () => {
 
 
                         <hr className='container' />
-                        <div className="container contact-container">
+                        {/* <div className="container contact-container">
                                 
                                 <div className="contact-form">
                                         <form onSubmit={handleSubmit}>
@@ -225,7 +225,7 @@ const Main1 = () => {
                                                 <button type="submit">메세지 보내기</button>
                                         </form>
                                 </div>
-                        </div>
+                        </div> */}
                         <br></br><br></br>
                 </section>
         );
